@@ -1,7 +1,7 @@
 describe Base::Obj do 
 
   subject(:base) do 
-      Base::Obj.new
+      Base::Obj.new('test_obj')
   end
 
   context "when marshalled to json" do 
