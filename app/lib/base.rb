@@ -4,8 +4,8 @@ module Base
   class Obj 
     attr_accessor :name
 
-    def initialize(name='ob')
-      @name = name
+    def initialize(*args)
+      @name = args.fetch(:name)
     end
 
     def to_json
