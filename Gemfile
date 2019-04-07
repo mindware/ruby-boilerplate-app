@@ -14,3 +14,4 @@ gem 'pry'
 gem 'oj'
 
 gem 'factory_bot'
+gem 'dotenv'
