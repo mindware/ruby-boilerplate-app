@@ -1,0 +1,62 @@
+---
+temperatures:
+  freezing:
+    min: 0.0
+    max: 0.3
+    weather:
+      - snow
+      - wind
+      - cloud
+      - blizzard
+      - snow-storm
+      - clear
+      - fog
+      - thundersnow
+      - hail
+  cold:
+    min: 0.31
+    max: 0.5
+    weather:
+      - rain
+      - wind
+      - blizzard
+      - clear
+      - fog
+      - mist
+      - hail
+      - cloud
+  temperate:
+    min: 0.51
+    max: 0.8
+    weather:
+      - rain
+      - wind
+      - clear
+      - storm
+      - wet
+      - thunderstorm
+      - hurricane
+      - fog
+      - humid
+      - cloud
+  warm:
+    min: 0.81
+    max: 0.94
+    weather:
+      - dry
+      - sand-storm
+      - hurricane
+      - thunderstorm
+      - cloud
+      - clear
+      - humid
+  hot:
+    min: 0.95
+    max: 1.0
+    weather:
+      - clear
+      - dry
+      - wind
+      - rain
+      - thunderstorm
+      - cloud

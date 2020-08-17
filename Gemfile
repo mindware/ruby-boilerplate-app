@@ -15,3 +15,8 @@ gem 'oj'
 
 gem 'factory_bot'
 gem 'dotenv'
+
+gem 'i18n'
+
+# Graph support
+gem 'rgl'

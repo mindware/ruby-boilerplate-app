@@ -1,0 +1,36 @@
+city:
+  encampment: 
+    names:
+      - encampment
+      - campsite
+      - campground
+      - camping site
+      - camping ground
+      - camp
+      - camping area
+  port:
+    expects: 
+      - beach
+      - ocean
+    names:
+      - port
+      - trade
+      - landing
+      - pier
+      - wharf
+  town:
+    include:
+      - town
+  walled:
+    names:
+      - walled
+      - fortress
+      - fort
+      - stronghold 
+      - hold
+  castle:
+      - castle
+      - palace
+      - chateau
+      - citadel
+      - keep

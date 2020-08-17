@@ -15,6 +15,7 @@ GEM
       activesupport (>= 5.0.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
+    lazy_priority_queue (0.1.1)
     method_source (1.0.0)
     minitest (5.14.1)
     oj (3.10.8)
@@ -23,6 +24,9 @@ GEM
       method_source (~> 1.0)
     rake (13.0.1)
     require_all (3.0.0)
+    rgl (0.5.6)
+      lazy_priority_queue (~> 0.1.0)
+      stream (~> 0.5.2)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -36,6 +40,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    stream (0.5.2)
     thread_safe (0.3.6)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
@@ -48,10 +53,12 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   factory_bot
+  i18n
   oj
   pry
   rake
   require_all
+  rgl
   rspec
   yard
 

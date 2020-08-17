@@ -1,0 +1,19 @@
+---
+edges:
+  ocean_beach_edge:
+    - sea
+    - bay
+    - gulf
+  lake_town_edge:
+    - pier
+    - port
+    - harbor
+    - laketown
+  river_grassland_edge:
+    - riverlands
+  swamp:
+    -
+  forest:
+    -
+  grassland:
+    -

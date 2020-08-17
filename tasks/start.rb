@@ -1,3 +1,4 @@
 task :start do
-   ruby 'config/application.rb'
+   puts "Running Driver..."
+   Driver.new
 end
