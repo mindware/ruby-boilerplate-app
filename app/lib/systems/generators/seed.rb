@@ -16,6 +16,5 @@ module Generator
     def random(...)
       @random.rand(...)
     end
-
   end
 end
