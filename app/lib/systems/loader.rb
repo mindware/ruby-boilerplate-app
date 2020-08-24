@@ -1,7 +1,6 @@
 require 'yaml'
 
-# Class loads all YAML data for the game
-# and keeps it in memory
+# Class loads all YAML data and keeps it in memory
 class Loader
   attr_reader :target, :data, :last_update
 
@@ -15,7 +14,6 @@ class Loader
 
   def load_data
     Dir[@target].each do |file|
-      #@data = YAML::ext_load_target(dir) 
       data = YAML::load_file(file)
       #data.each do |key, value|
       #  puts "#{key} -> #{value}"

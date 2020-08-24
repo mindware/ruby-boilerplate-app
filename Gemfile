@@ -7,16 +7,9 @@ gem "yard"
 gem 'rspec'
 gem 'require_all'
 gem 'rake'
-
-gem 'pry'
-
 # Marshalling to json
 gem 'oj'
-
 gem 'factory_bot'
 gem 'dotenv'
-
 gem 'i18n'
-
-# Graph support
-gem 'rgl'
+#gem 'pry'
